@@ -1,0 +1,78 @@
+.demo-bg{
+background: #ffac0c;
+margin-top: 60px;
+}
+        
+
+      /*body{
+            font-family:'[z] Arista';
+            font-size: 18px;
+            }
+        @font-face {
+        font-family: '[z] Arista';
+        font-style: normal;
+        font-weight: normal;
+        src: local('[z] Arista'), url('[z] Arista.woff') format('woff');
+        }
+        
+        
+        @font-face {
+        font-family: '[z] Arista Light';
+        font-style: normal;
+        font-weight: normal;
+        src: local('[z] Arista Light'), url('[z] Arista light.woff') format('woff');
+        }
+        
+        
+        @font-face {
+        font-family: '[z] Arista ExtraFilled';
+        font-style: normal;
+        font-weight: normal;
+        src: local('[z] Arista ExtraFilled'), url('[z] Arista ExtraFilled.woff') format('woff');
+*/
+ 
+
+.thumbnail img {
+    width: 150px;
+}
+
+ 
+.business-hours {
+background: transparent; 
+padding: 40px 14px;
+margin-top: -15px;
+position: relative;
+}
+.business-hours:before{
+content: '';
+width: 23px;
+height: 23px;
+background: #111;
+position: absolute;
+top: 5px;
+left: -12px;
+transform: rotate(-45deg);
+z-index: -1;
+}
+.business-hours .title {
+font-size: 20px;
+color: #BBB;
+text-transform: uppercase;
+padding-left: 5px;
+/*border-left: 4px solid #ffac0c; */
+}
+.business-hours li {
+color: #000;
+line-height: 30px;
+border-bottom: 1px solid #333; 
+}
+.business-hours li:last-child {
+border-bottom: none; 
+}
+.business-hours .opening-hours li.today {
+color: #ffac0c; 
+}
+
+.popover {
+    text-align: justify;
+}
