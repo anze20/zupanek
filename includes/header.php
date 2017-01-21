@@ -30,7 +30,6 @@
 
     <!-- Custom CSS -->
     <link href="css/business-casual.css" rel="stylesheet">
-    <link href="css/shop-homepage.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 
 
@@ -40,7 +39,7 @@
 
     <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
 
-    <script language="javascript" type="text/javascript" src="bootstrap.js">
+    <script language="javascript" type="text/javascript" src="js/bootstrap.js">
 
 
 
@@ -52,9 +51,9 @@
 
 <body>
 
-    <div class="brand">Èebelarstvo Zupanek</div>
+    <div class="brand">&#268ebelarstvo Zupanek</div>
     
-    <div class="address-bar">Trdinova 5 | 1230 Domžale | 031 375 666</div>
+    <div class="address-bar">Trdinova 5 | 1230 Dom&#382ale | 031 375 666</div>
 
     <!-- Navigation -->
     <nav class="navbar navbar-default" role="navigation">

@@ -1,6 +1,6 @@
 <?php
     session_start();
-    include('includes/header.html');
+    include('includes/header.php');
     
     if(isset($_POST['login'])){
         include_once("db.php");
@@ -78,5 +78,5 @@
 </html>
 
 <?php
-include('includes/footer.html');
+include('includes/footer.php');
 ?>

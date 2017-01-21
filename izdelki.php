@@ -1,7 +1,7 @@
 <?php
 
 $page_title = "Frizerski salon Pretty";
-include ('includes/header.html');
+include ('includes/header.php');
 
 ?>
     <!-- Page Content -->
@@ -181,6 +181,6 @@ include ('includes/header.html');
     <!-- /.container -->
 <?php
 
-include ('includes/footer.html');
+include ('includes/footer.php');
 
 ?>
